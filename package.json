@@ -6,7 +6,7 @@
   "dependencies": {
     "fibers": "*"
   },
-	optionalDependencies: {
+	"optionalDependencies": {
 		"ejs": "*",
 		"less": "*",
 		
