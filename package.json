@@ -2,8 +2,21 @@
   "name": "carbonfibers",
   "main": "carbon",
   "version": "0.1.0",
+	"repository": { "type": "git", "url": "https://github.com/javascriptismagic/carbonfibers.git" },
   "dependencies": {
     "fibers": "*"
   },
+	optionalDependencies: {
+		"ejs": "*",
+		"less": "*",
+		
+		"redis": "*",
+		"pg": "*",
+		"monk": "*",
+		"nedb": "*",
+		
+		"aws-sdk": "*",
+		"nodemailer": "*"
+	},
   "readmeFilename": "README.md"
 }
