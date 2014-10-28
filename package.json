@@ -1,0 +1,9 @@
+{
+  "name": "carbonfibers",
+  "main": "carbon",
+  "version": "0.1.0",
+  "dependencies": {
+    "fibers": "*"
+  },
+  "readmeFilename": "README.md"
+}
