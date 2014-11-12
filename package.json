@@ -1,14 +1,14 @@
 {
   "name": "carbonfibers",
   "main": "carbon",
-  "version": "0.1.0",
+  "version": "0.1.1",
 	"repository": { "type": "git", "url": "https://github.com/javascriptismagic/carbonfibers.git" },
   "dependencies": {
     "fibers": "*"
   },
 	"optionalDependencies": {
 		"ejs": "*",
-		"less": "*",
+		"less": "1",
 		
 		"redis": "*",
 		"pg": "*",
