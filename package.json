@@ -2,19 +2,41 @@
   "name": "carbonfibers",
   "main": "carbon",
   "version": "0.2.0",
-	"repository": { "type": "git", "url": "https://github.com/javascriptismagic/carbonfibers.git" },
-  "dependencies": {
-    "fibers": "1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/javascriptismagic/carbonfibers.git"
   },
-	"optionalDependencies": {
-		"ejs": "1",
-		"less": "1",
-		"redis": "0.12",
-		"pg": "4",
-		"monk": "0.9",
-		"nedb": "1",
-		"aws-sdk": "2",
-		"nodemailer": "0.7"
-	},
-  "readmeFilename": "README.md"
+  "dependencies": {
+    "fibers": "*",
+    "ejs": "*",
+    "less": "1",
+    "redis": "*",
+    "pg": "*",
+    "monk": "*",
+    "nedb": "*",
+    "aws-sdk": "*",
+    "nodemailer": "*"
+  },
+  "optionalDependencies": {
+    "ejs": "*",
+    "less": "1",
+    "redis": "*",
+    "pg": "*",
+    "monk": "*",
+    "nedb": "*",
+    "aws-sdk": "*",
+    "nodemailer": "*"
+  },
+  "readmeFilename": "README.md",
+  "readme": "carbonfibers\r\n============\r\n\r\nNode.js module that is a hybrid promise/fibers library designed to easily bridge the gap between fibers and traditional promises, and can be used like a simplified \"threading library\" that is built on the wonderful fibers library.\r\n",
+  "gitHead": "b03d110502b0f6dcdaecf455ec0f00aac620749e",
+  "description": "carbonfibers\r ============",
+  "bugs": {
+    "url": "https://github.com/javascriptismagic/carbonfibers/issues"
+  },
+  "homepage": "https://github.com/javascriptismagic/carbonfibers",
+  "_id": "carbonfibers@0.1.1",
+  "scripts": {},
+  "_shasum": "48f3aab9d049fe7a599835f6a316119dbadc9f8c",
+  "_from": "carbonfibers@*"
 }
