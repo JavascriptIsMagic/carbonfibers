@@ -1,21 +1,19 @@
 {
   "name": "carbonfibers",
   "main": "carbon",
-  "version": "0.1.1",
+  "version": "0.2.0",
 	"repository": { "type": "git", "url": "https://github.com/javascriptismagic/carbonfibers.git" },
   "dependencies": {
-    "fibers": "*"
+    "fibers": "1"
   },
 	"optionalDependencies": {
 		"ejs": "1",
 		"less": "1",
-		
-		"redis": "*",
-		"pg": "*",
-		"monk": "*",
-		"nedb": "*",
-		
-		"aws-sdk": "*",
+		"redis": "0.12",
+		"pg": "4",
+		"monk": "0.9",
+		"nedb": "1",
+		"aws-sdk": "2",
 		"nodemailer": "0.7"
 	},
   "readmeFilename": "README.md"
