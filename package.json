@@ -7,7 +7,7 @@
     "fibers": "*"
   },
 	"optionalDependencies": {
-		"ejs": "*",
+		"ejs": "1",
 		"less": "1",
 		
 		"redis": "*",
@@ -16,7 +16,7 @@
 		"nedb": "*",
 		
 		"aws-sdk": "*",
-		"nodemailer": "*"
+		"nodemailer": "0.7"
 	},
   "readmeFilename": "README.md"
 }
