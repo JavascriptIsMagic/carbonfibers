@@ -20,7 +20,7 @@ function CarbonS3(options) {
 				}
 				function callback(error, response) {
 					const args = slice.call(arguments);
-					if (this.nextPage) {
+					if (response && this.nextPage) {
 						response.nextPage = function () {
 							return new fibers(this, this.nextPage);
 						}.bind(this);
