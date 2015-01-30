@@ -1,7 +1,7 @@
 {
   "name": "carbonfibers",
   "main": "carbon",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "repository": {
     "type": "git",
     "url": "https://github.com/javascriptismagic/carbonfibers.git"
@@ -34,9 +34,5 @@
   "bugs": {
     "url": "https://github.com/javascriptismagic/carbonfibers/issues"
   },
-  "homepage": "https://github.com/javascriptismagic/carbonfibers",
-  "_id": "carbonfibers@0.1.1",
-  "scripts": {},
-  "_shasum": "48f3aab9d049fe7a599835f6a316119dbadc9f8c",
-  "_from": "carbonfibers@*"
+  "homepage": "https://github.com/javascriptismagic/carbonfibers"
 }
